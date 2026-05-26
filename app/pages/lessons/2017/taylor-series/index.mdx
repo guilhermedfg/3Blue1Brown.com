@@ -53,7 +53,7 @@ The study of Taylor series is largely about taking non-polynomial functions, and
 
 <Figure image="$lesson/figures/cosine.svg" />
 
-Let's look at the function $\cos(x)$, and take a moment to think about how you might find a quadratic approximation near $x = 0$. That is, among all the polynomials that look $c_0 + c_1x + c_2x_2$ for some choice of the constants $c_0$, $c_1$ and $c_2$, find the one that most resembles $\cos(x)$ near $x=0$.
+Let's look at the function $\cos(x)$, and take a moment to think about how you might find a quadratic approximation near $x = 0$. That is, among all the polynomials that look $c_0 + c_1x + c_2x^2$ for some choice of the constants $c_0$, $c_1$ and $c_2$, find the one that most resembles $\cos(x)$ near $x=0$.
 
 First of all, at the input $0$ the value of $\cos(x)$ is $1$, so if our approximation is going to be any good at all, it should also equal $1$ when you plug in $0$.
 
@@ -83,7 +83,7 @@ This is the same as making the derivative of our approximation as close as we ca
 
 $$
 \begin{aligned}
-\frac{d}{d x}(\cos (x)) & =\frac{d}{d x}\left(c_0+c_1 x+c_2 x^2+\right) \\ \rule{0pt}{2em}
+\frac{d}{d x}(\cos (x)) & =\frac{d}{d x}\left(c_0+c_1 x+c_2 x^2\right) \\ \rule{0pt}{2em}
 -\sin (x) & =c_1+2 c_2 x \\ \rule{0pt}{2em}
 -\sin (0) & =c_1+2 c_2(0) \\ \rule{0pt}{2em}
 c_1 & =0
